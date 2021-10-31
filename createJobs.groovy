@@ -14,7 +14,7 @@ pipelineJob('theme-park-job') {
                     remote {
                         url 'https://github.com/thasnim/cloud-demo.git'
                     }
-                    branch 'main'
+                    branch 'master'
                 }
             }
         }
