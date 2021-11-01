@@ -20,7 +20,7 @@ pipelineJob('theme-park-job') {
         }
     }
 }
-ipelineJob('theme-park-job-docker') {
+pipelineJob('theme-park-job-docker') {
     definition {
         cpsScm {
             scm {
@@ -35,7 +35,7 @@ ipelineJob('theme-park-job-docker') {
         }
     }
 }
-ipelineJob('theme-park-job-docker-aws') {
+pipelineJob('theme-park-job-docker-aws') {
     definition {
         cpsScm {
             scm {
